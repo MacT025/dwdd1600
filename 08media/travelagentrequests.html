@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="McCoy Tanner">
+    <meta name="description" content="Learn about The Declaration of Independence of the United States">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="glossary.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>About Us</title>
+</head>
+
+<body>
+    <!--Begin the page head-->
+    <header>
+        <img src="images/logo.png" alt="site logo" width="53" height="75">
+        <div>
+        <span>The Travel Glossary</span>
+    </div>
+    </header>
+
+
+    <!--Begin the page navigation-->
+    <nav>
+        <ul>
+            <li><a href="index.html">About Us</a></li>
+            <li><a href="visit.html">Discover North America</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li class="active"><a href="travelagentrequests.html">Travel Assistance Request</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="sponsor.html">Sponsors</a></li>
+        </ul>
+
+    </nav>
+
+    <!--Begin the main content-->
+    <main>
+        <h1>Travel Assistance Request</h1>
+
+        <p>The Travel Glossary offers personalized travel assistance by allowing guests to input their current region
+            and their desired destination, ensuring a seamless trip-planning experience.
+            Our expert agents curate customized itineraries featuring the best travel deals on flights, accommodations,
+            tours, and unique local experiences tailored to each traveler’s preferences. Whether you're looking for
+            hidden gems, cultural excursions, or budget-friendly options, our team finds the best offers and exclusive
+            discounts to enhance your journey. With a focus on hassle-free planning, The Travel Glossary simplifies
+            your travel experience, providing expert recommendations and unbeatable deals to create unforgettable
+            adventures. </p>
+
+        <h2> Please Fill Out The Information Listed Below</h2>
+
+        <form method="get" class="MyForm" action="thanks.html">
+
+            <fieldset>
+                <legend>Customer Information</legend>
+                <label>First Name* <input type="text" name="fname" required placeholder="First Name">
+                </label>
+
+                <label>Last Name* <input type="text" name="lname" required placeholder="Last Name">
+                </label>
+
+                <label>Cell Number* <input type="tel" name="phone" required placeholder="898-057-5231">
+                </label>
+
+                <label>Email* <input type="email" name="email" required placeholder="Ex. @Gmail.com">
+                </label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend> Your Region </legend>
+                <label>
+                    <input type="radio" name="region" value="northam"> North America
+                </label>
+
+                <label>
+                    <input type="radio" name="region" value="southam"> South America
+                </label>
+
+                <label>
+                    <input type="radio" name="region" value="asia"> Asia
+                </label>
+
+                <label>
+                    <input type="radio" name="region" value="europe"> Europe
+                </label>
+
+                <label>
+                    <input type="radio" name="region" value="africa"> Africa
+                </label>
+
+                <label>
+                    <input type="radio" name="region" value="middle"> Middle East
+                </label>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Desired Destination Regions </legend>
+
+                <label>
+                    <input type="checkbox" name="destination" value="northam"> North America
+                </label>
+
+                <label>
+                    <input type="checkbox" name="destination" value="southam"> South America
+                </label>
+
+                <label>
+                    <input type="checkbox" name="destination" value="asia"> Asia
+                </label>
+
+                <label>
+                    <input type="checkbox" name="destination" value="europe"> Europe
+                </label>
+
+                <label>
+                    <input type="checkbox" name="destination" value="africa"> Africa
+                </label>
+
+                <label>
+                    <input type="checkbox" name="destination" value="middle"> Middle East
+
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <label> Preferred Method Of Travel
+                    <select name="time">
+                        <option value="none">
+                            Please Select
+                        </option>
+
+                        <option value="train">
+                            Train
+                        </option>
+
+                        <option value="plane">
+                            Jet
+                        </option>
+
+                        <option value="bus">
+                            Bus
+                        </option>
+
+                        <option value="car">
+                            Rental Car
+                        </option>
+                </label>
+                </select>
+            </fieldset>
+
+            <p>If you would like to give specific details about your trip, you can comment below or discuss that
+                information with one of our many agents!</p>
+
+            <fieldset>
+                <label> Additional Details
+                    <textarea name="comments"></textarea>
+                </label>
+
+                <input type="submit" value="Send Travel Request">
+
+            </fieldset>
+
+    </main>
+
+    <!--Begin the footer-->
+    <footer>
+        <p> &copy; 2025 The Travel Glossary &bull; McCoy Tanner &bull; Web Essentials </p>
+    </footer>
+
+</body>
+
+
+
+
+
+</html>
